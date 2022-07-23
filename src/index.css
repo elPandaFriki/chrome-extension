@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#popup {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: auto;
+}
+
+#popup_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#popup_text > * {
+  width: auto;
+}
+
+button {
+  height: 30px;
+  min-width: 30px;
+  width: auto;
+  padding: 5px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  outline: none;
+  margin: 10px;
+  border: 1px solid #aaaaaa;
+  border-radius: 2px;
+}
+
+button.current {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px black;
+}
+
+#buttonery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
